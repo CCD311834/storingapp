@@ -29,7 +29,8 @@ $statement->execute([
 
 if ($action == 'update'){
     require_once '../../../config/conn.php';
-    $query = "UPDATE meldingen SET attractie = :attractie, type = :type, capaciteit = :capaciteit, prioriteit = :prioriteit, melder = :melder, overige_info = :overige_info WHERE id = :id";
+    $query = "UPDATE meldingen 
+    SET attractie = :attractie, type = :type, capaciteit = :capaciteit, prioriteit = :prioriteit, melder = :melder, overige_info = :overige_info WHERE id = :id";
     $statement = $conn->prepare($query);
     $statement->execute([
         ":attractie" => $attractie,
