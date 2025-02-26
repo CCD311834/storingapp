@@ -357,3 +357,15 @@ label{
   }
 }
 
+tr:first-child {
+  background-color: #adabab !important;
+}
+
+tr:nth-child(odd) {
+  background-color: #b9f8b9;
+}
+
+tr:nth-child(even),
+tr:hover {
+  background-color: #90ee90;
+}

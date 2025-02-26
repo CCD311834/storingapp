@@ -52,7 +52,7 @@
             </div>
 
             <input type="submit" value="Verstuur melding">
-
+            <input type="hidden" name="action" value="create">
         </form>
     </div>
 
