@@ -48,6 +48,7 @@
 
             <input type="submit" value="Verstuur aanpassing">
             <input type="hidden" name="action" value="update">
+            <input type="hidden" name="id" value="<?php echo $id; ?>">
         </form>
     </div>
 </body>
