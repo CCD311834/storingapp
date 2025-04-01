@@ -1,4 +1,4 @@
-<form action="backend/loginController.php" method="POST">
+<form action="app/Http/Controllers/loginController.php" method="POST">
     <div class="form-group">
         <label for="username">Gebruikersnaam:</label>
         <input type="text" name="username" id="username">
