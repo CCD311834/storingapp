@@ -23,5 +23,7 @@ if(!password_verify($password, $user['password']))
 }
 
 $_SESSION['user_id'] = $user['id'];
+$msg= "Ingelogd als $username";
+header("Location: ../../../index.php?msg=$msg");
 
 ?>
