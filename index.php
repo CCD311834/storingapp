@@ -9,19 +9,12 @@
 <body>
 
     <?php require_once 'resources/views/components/header.php'; ?>
-    
+
     <div class="container home">
-        <form action="app/Http/Controllers/loginController.php" method="POST">
-            <div class="form-group">
-                <label for="username">Gebruikersnaam:</label>
-                <input type="text" name="username" id="username">
-            </div>
-            <div class="form-group">
-                <label for="password">Wachtwoord:</label>
-                <input type="password" name="password" id="password">
-            </div>
-            <input type="submit" value="Login">
-        </form>
+
+        <h1>Welkom bij de technische dienst</h1>
+        <img src="public_html/img/logo-big-fill-only.png" alt="logo">
+
     </div>
 
 </body>
